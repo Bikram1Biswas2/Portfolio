@@ -1,9 +1,12 @@
+import Designation from "./Designation/Designation";
+import Navbar from "./Navbar/Navbar";
 
 
 const Home = () => {
     return (
-        <div>
-            <h2 className="text-5xl">This is home</h2>
+        <div className="w-11/12 mx-auto">
+            <Navbar></Navbar>
+            <Designation></Designation>
         </div>
     );
 };
