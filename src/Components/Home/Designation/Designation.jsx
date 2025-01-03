@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import myImg from '../../../assets/Bikram.jpg';
 
 const Designation = () => {
@@ -34,6 +34,14 @@ const Designation = () => {
                             className="text-gray-300 hover:text-teal-400 transition duration-300"
                         >
                             <FaLinkedin />
+                        </a>
+                        <a
+                            href="https://www.facebook.com/bikrm.biawas"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-300 hover:text-teal-400 transition duration-300"
+                        >
+                            <FaFacebook />
                         </a>
                     </div>
                     <div className="mt-6">
