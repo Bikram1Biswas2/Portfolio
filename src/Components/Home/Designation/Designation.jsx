@@ -1,5 +1,7 @@
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import myImg from '../../../assets/Bikram.jpg';
+import TypewriterComponent from 'typewriter-effect';
+
 
 const Designation = () => {
     return (
@@ -8,11 +10,22 @@ const Designation = () => {
                 <img
                     src={myImg}
                     alt="Profile"
-                    className="max-w-xs rounded-lg shadow-2xl border-4 border-teal-400 hover:scale-105 transition-transform"
+                    className="max-w-sm rounded-full shadow-2xl border-4 border-teal-400 hover:scale-105 transition-transform"
                 />
                 <div className="text-center lg:text-left lg:ml-8">
-                    <h1 className="text-4xl lg:text-5xl font-extrabold text-teal-400">
-                        Frontend Developer
+                <h1 className="text-2xl lg:text-5xl font-extrabold text-teal-400">
+                        <TypewriterComponent
+                            options={{
+                                strings: ['Hello, I am Bikram Biswas', 'Welcome to My Portfolio!'],
+                                autoStart: true,
+                                loop: true,
+                                delay: 50,
+                                deleteSpeed: 30,
+                            }}
+                        />
+                    </h1>
+                    <h1 className="text-xl lg:text-3xl font-bold text-teal-300">
+                        MernStack Developer
                     </h1>
                     <p className="py-6 text-lg text-gray-300">
                         I specialize in crafting modern, responsive, and user-friendly web

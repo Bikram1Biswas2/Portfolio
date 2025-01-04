@@ -58,7 +58,7 @@ const Navbar = () => {
                         href="/public/My Resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn bg-gradient-to-r from-teal-400 to-teal-600 text-black hover:from-teal-500 hover:to-teal-700 transition shadow-lg"
+                        className="btn  bg-gradient-to-r from-orange-400 to-orange-600 text-black hover:from-orange-500 hover:to-orange-700 transition shadow-lg"
                     >
                         Download Resume
                     </a>
