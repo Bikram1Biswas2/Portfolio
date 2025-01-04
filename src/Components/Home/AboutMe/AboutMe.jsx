@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-        <div className="w-full min-h-screen bg-gradient-to-r from-gray-800 via-teal-900 to-gray-800 text-white py-16">
+        <div id="aboutMe" className="w-full min-h-screen bg-gradient-to-r from-gray-800 via-teal-900 to-gray-800 text-white py-16">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center text-teal-400 mb-6">About Me</h2>
                 <div className="lg:flex lg:justify-between gap-3">

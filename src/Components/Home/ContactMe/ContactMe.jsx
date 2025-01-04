@@ -26,7 +26,7 @@ const ContactMe = () => {
       };
 
     return (
-       <div className='bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 '>
+       <div id='contactMe' className='bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 '>
         <h2 className='text-center text-4xl font-bold text-teal-400'>Contact Me</h2>
          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 p-8 ">
             {/* Contact Form */}

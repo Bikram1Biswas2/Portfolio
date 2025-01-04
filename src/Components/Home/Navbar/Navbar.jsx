@@ -1,19 +1,73 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     const links = (
         <>
             <li>
-                <NavLink
-                    to="/"
-                    className={({ isActive }) =>
-                        isActive
-                            ? "text-teal-400 font-semibold"
-                            : "text-gray-300 hover:text-teal-400 transition duration-300"
-                    }
+                <Link
+                    to="home"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer text-gray-300 hover:text-teal-400 transition duration-300"
                 >
                     Home
-                </NavLink>
+                </Link>
+            </li>
+            <li>
+                <Link
+                    to="aboutMe"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer text-gray-300 hover:text-teal-400 transition duration-300"
+                >
+                    About
+                </Link>
+            </li>
+            <li>
+                <Link
+                    to="mySkill"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer text-gray-300 hover:text-teal-400 transition duration-300"
+                >
+                    Skills
+                </Link>
+            </li>
+            <li>
+                <Link
+                    to="education"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer text-gray-300 hover:text-teal-400 transition duration-300"
+                >
+                     Education
+                </Link>
+            </li>
+            <li>
+                <Link
+                    to="myProjects"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer text-gray-300 hover:text-teal-400 transition duration-300"
+                >
+                    Projects
+                </Link>
+            </li>
+            <li>
+                <Link
+                    to="contactMe"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer text-gray-300 hover:text-teal-400 transition duration-300"
+                >
+                    Contact
+                </Link>
             </li>
         </>
     );
@@ -58,7 +112,7 @@ const Navbar = () => {
                         href="/public/My Resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn  bg-gradient-to-r from-orange-400 to-orange-600 text-black hover:from-orange-500 hover:to-orange-700 transition shadow-lg"
+                        className="btn bg-gradient-to-r from-orange-400 to-orange-600 text-black hover:from-orange-500 hover:to-orange-700 transition shadow-lg"
                     >
                         Download Resume
                     </a>

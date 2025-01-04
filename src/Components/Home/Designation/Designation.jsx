@@ -44,7 +44,7 @@ const Designation = () => {
                             href="https://www.linkedin.com/feed/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-300 hover:text-teal-400 transition duration-300"
+                            className=" hover:text-teal-400 transition duration-300 text-blue-700"
                         >
                             <FaLinkedin />
                         </a>
@@ -52,7 +52,7 @@ const Designation = () => {
                             href="https://www.facebook.com/bikrm.biawas"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-300 hover:text-teal-400 transition duration-300"
+                            className="text-blue-400 hover:text-teal-400 transition duration-300"
                         >
                             <FaFacebook />
                         </a>
