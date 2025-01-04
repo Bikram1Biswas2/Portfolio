@@ -41,13 +41,6 @@ const Education = () => {
                         <p className="text-xl text-gray-400">Percentage: <span className="font-bold">72.57%</span></p>
                     </div>
                 </div>
-
-                {/* Contact Information */}
-                <div className="mt-12 text-center">
-                    <p className="text-lg text-gray-400">For more details, you can reach out to me at:</p>
-                    <p className="text-xl text-teal-400 mt-2">bikrambiswas912@gmail.com</p>
-                    <p className="text-xl text-teal-400 mt-2">Phone: 8370988289</p>
-                </div>
             </div>
         </div>
     );
