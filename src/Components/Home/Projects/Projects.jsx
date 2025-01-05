@@ -12,7 +12,7 @@ const Projects = () => {
             image: carrerCompass,
             techStack: 'React.js, Firebase, Tailwind CSS, DaisyUI, Vite, ESLint, React Router, AOS, React Hot Toast, React Helmet Async',
             description: 'A brief description of the project goes here...',
-            liveLink: 'https://carrer-couseling.netlify.app/',
+            liveLink: 'https://carrercompass.netlify.app/',
             githubLink: 'https://github.com/Bikram1Biswas2/Carrer_counseling',
             challenges: 'Challenges faced during development...1- Firebase Authentication setup 2- Managing complex state logic',
             improvements: 'Improvements planned for the future... 1- Implement backend, 2- JWT Token for better security, 3- Improve UI responsiveness',
