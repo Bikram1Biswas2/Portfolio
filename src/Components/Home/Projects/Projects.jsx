@@ -1,22 +1,23 @@
 import { useState } from 'react';
 import equiSports from '../../../assets/equiSports.png';
 import dineWise from '../../../assets/DineWise.png';
-import carrerCompass from '../../../assets/CarrerCompass.png';
+import PharmaNest from '../../../assets/pharmaNest.png';
 
 const Projects = () => {
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projects = [
         {
-            title: 'Carrer Compass',
-            image: carrerCompass,
-            techStack: 'React.js, Firebase, Tailwind CSS, DaisyUI, Vite, ESLint, React Router, AOS, React Hot Toast, React Helmet Async',
-            description: 'A brief description of the project goes here...',
-            liveLink: 'https://carrercompass.netlify.app/',
-            githubLink: 'https://github.com/Bikram1Biswas2/Carrer_counseling',
-            challenges: 'Challenges faced during development...1- Firebase Authentication setup 2- Managing complex state logic',
-            improvements: 'Improvements planned for the future... 1- Implement backend, 2- JWT Token for better security, 3- Improve UI responsiveness',
-        },
+            title: "Pharma_Nest",
+            image: "carrerCompass",
+            techStack: "React.js, Firebase, Tailwind CSS, DaisyUI, Vite, ESLint, React Router, AOS, React Hot Toast, React Helmet Async",
+            description: "Pharma Nest is a multi-vendor e-commerce platform designed for selling medicines. It features secure payment integration using Stripe, role-based dashboards for Admin, Seller, and User, and advanced functionalities such as product pagination, sorting, and search. The platform offers a seamless user experience with persistent login state, responsive design, and CRUD operations for medicines. Additionally, it includes features like sales report downloads, advertisement management, and dynamic product showcases for enhanced engagement and scalability.",
+            liveLink: "https://pharmanest-b6b2d.web.app",
+            githubLink: "https://github.com/Bikram1Biswas2/pharmaNest_Client",
+            challenges: "1. Setting up Firebase Authentication with secure environment variables. 2. Managing complex state logic for cart, checkout, and dashboard operations. 3. Implementing advanced table functionalities such as filtering, sorting, and pagination.",
+            improvements: "1. Implement a robust backend service for enhanced functionality and data management. 2. Improve UI/UX for better user engagement. 3. Add localization features for multi-language support."
+          },
+          
         {
             title: 'EquiSports',
             image: equiSports,
