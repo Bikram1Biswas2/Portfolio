@@ -6,7 +6,7 @@ import TypewriterComponent from 'typewriter-effect';
 const Designation = () => {
     return (
         <div className="hero min-h-screen bg-gradient-to-br from-gray-900 to-black">
-            <div className="hero-content flex-col lg:flex-row-reverse container mx-auto">
+            <div className="hero-content flex-col lg:flex-row-reverse mx-auto w-11/12">
                 <img
                     src={myImg}
                     alt="Profile"

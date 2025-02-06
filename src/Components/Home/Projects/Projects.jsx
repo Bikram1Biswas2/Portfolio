@@ -48,7 +48,7 @@ const Projects = () => {
 
   return (
     <div id="myProjects" className="w-full min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 py-16">
-      <div className="container mx-auto px-6">
+      <div className="w-11/12 mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-teal-400 mb-12">My Projects</h2>
 
         {/* Project Cards */}
