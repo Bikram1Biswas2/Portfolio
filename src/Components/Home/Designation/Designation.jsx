@@ -10,7 +10,7 @@ const Designation = () => {
                 <img
                     src={myImg}
                     alt="Profile"
-                    className="max-w-sm rounded-full shadow-2xl border-4 border-teal-400 hover:scale-105 transition-transform"
+                    className="w-80 h-80 rounded-full shadow-2xl border-4 border-teal-400 hover:scale-105 transition-transform"
                 />
                 <div className="text-center lg:text-left lg:ml-8">
                 <h1 className="text-2xl lg:text-5xl font-extrabold text-teal-400">
