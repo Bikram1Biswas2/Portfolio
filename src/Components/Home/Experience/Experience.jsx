@@ -8,10 +8,8 @@ const Experience = () => {
           <h3 className="text-2xl font-semibold text-gray-800">Software Developer Intern</h3>
           <p className="text-gray-600">DevifAI, Kolkata, India | Feb 2025 – Present</p>
           <ul className="list-disc ml-5 mt-2 text-gray-700">
-            <li>Developing an <strong>Astrologer Admin Dashboard</strong> for business management.</li>
-            <li>Building a scalable frontend using <strong>React.js</strong> and <strong>Tailwind CSS</strong>.</li>
-            <li>Implementing <strong>Node.js</strong> and <strong>Express.js</strong> for backend API integration.</li>
-            <li>Ensuring secure authentication with <strong>JWT</strong> and handling database operations with <strong>MongoDB</strong>.</li>
+            <li>Developing an <strong>Astrologer Admin Dashboard</strong> for business management using TypeScript.</li>
+            <li>Building a scalable landing page frontend using <strong>React.js</strong> and <strong>Tailwind CSS</strong>.</li>
           </ul>
         </div>
       </div>
