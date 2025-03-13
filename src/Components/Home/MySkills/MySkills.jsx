@@ -1,3 +1,4 @@
+import { BiLogoTypescript } from "react-icons/bi";
 import { FaHtml5, FaNode, FaReact } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import { IoLogoCss3 } from "react-icons/io";
@@ -47,6 +48,12 @@ const MySkills = () => {
               <div className="flex items-center gap-4 mb-4">
                 <FaReact className="text-blue-400 text-3xl" />
                 <p className="text-xl text-white">React</p>
+              </div>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:bg-teal-700 transition-all">
+              <div className="flex items-center gap-4 mb-4">
+                <BiLogoTypescript className="text-blue-400 text-3xl" />
+                <p className="text-xl text-white">TypeScript</p>
               </div>
             </div>
           </div>
