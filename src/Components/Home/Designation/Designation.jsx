@@ -41,7 +41,7 @@ const Designation = () => {
                             <FaGithub />
                         </a>
                         <a
-                            href="https://www.linkedin.com/feed/"
+                            href="https://www.linkedin.com/in/bikram-biswas-077072230"
                             target="_blank"
                             rel="noopener noreferrer"
                             className=" hover:text-teal-400 transition duration-300 text-blue-700"

@@ -38,6 +38,17 @@ const Navbar = () => {
             </li>
             <li>
                 <Link
+                    to="myExperience"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    className="cursor-pointer text-gray-300 hover:text-teal-400 transition duration-300"
+                >
+                    Experience
+                </Link>
+            </li>
+            <li>
+                <Link
                     to="education"
                     smooth={true}
                     duration={500}

@@ -16,7 +16,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/bikram-biswas-077072230"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-teal-400 transition-colors text-blue-700"
