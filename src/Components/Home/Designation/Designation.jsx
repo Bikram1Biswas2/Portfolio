@@ -59,7 +59,7 @@ const Designation = () => {
                     </div>
                     <div className="mt-6">
                         <a
-                            href="/My Resume.pdf"
+                            href="/public/BikramResume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn bg-gradient-to-r from-orange-400 to-orange-600 text-white hover:from-orange-500 hover:to-orange-700 shadow-lg"

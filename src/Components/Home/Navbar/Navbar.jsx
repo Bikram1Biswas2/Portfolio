@@ -120,7 +120,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <a
-                        href="/My Resume.pdf"
+                        href="/public/BikramResume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn bg-gradient-to-r from-orange-400 to-orange-600 text-black hover:from-orange-500 hover:to-orange-700 transition shadow-lg"
